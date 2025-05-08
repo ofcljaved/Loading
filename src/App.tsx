@@ -1,10 +1,12 @@
 import { useState } from "react"
+import Manipulate from "./Manipulate";
 
 type logoType = 'rockstar' | 'school' | 'cashboard';
 export default function App() {
   const [logo, setLogo] = useState<logoType>('rockstar');
   return (
     <main>
+      <Manipulate />
       <div className="tab">
         <button data-active={logo === 'rockstar'} onClick={() => setLogo('rockstar')}>Rockstar</button>
         <button data-active={logo === 'school'} onClick={() => setLogo('school')}>School</button>

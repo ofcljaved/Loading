@@ -6,7 +6,6 @@
 main {
   position: fixed;
   inset: 0;
-  /*pointer-events: none;*/
   display: grid;
   place-items: center;
   background: linear-gradient(223.17deg, #1c1829, #1b1828 8.61%, #191724 17.21%, #161520 25.82%, #14131c 34.42%, #121218 43.03%, #111117 51.63%);
